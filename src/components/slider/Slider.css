@@ -1,0 +1,144 @@
+.carousel-container {
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+  background-color: black;
+  padding: 30px 0 30px 0;
+}
+
+.carousel-title {
+  color: white;
+  width: 40%;
+  text-align: center;
+  font-size: 30px;
+  padding: 100px 0 100px 0;
+}
+
+/*
+.slide-container {
+    max-height:200px;
+    border-radius: 5;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    padding: 30px 30px 30px 30px;
+  }
+*/
+
+.slide-container {
+  width: 100%;
+ max-height: 350px;
+  color: gray;
+  font-size: 20px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.slide-container > img {
+  width: 100%;
+  height: 80%;
+  display: block;
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.slide-container:hover > img {
+  opacity: 0.3;
+}
+
+.slide-container:hover {
+  color: blue;
+  cursor: pointer;
+  
+}
+
+.slide-desc {
+  height: 20%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.slide-desc:hover {
+  height: 20%;
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-wrapper {
+  width: 100%;
+  margin-top: 40px;
+  
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.box:before {
+  content: "";
+  position: absolute;
+  background: black;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.4s linear;
+}
+
+.box:hover:before {
+  opacity: 1;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  transition: all 0.4s linear;
+}
+
+.box:hover img {
+  opacity: 0.3;
+  transform: scale(1.5);
+}
+
+.box .box-content {
+  color: black;
+  width: 100%;
+  transform: translateY(-50%) scale(0);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transition: all 0.4s linear;
+  opacity: 1;
+}
+
+.box:hover .box-content {
+  transform: translateY(-50%) scale(0.4);
+  opacity: 1;
+}
+
+.box:hover .box-content img {
+  opacity: 1;
+}
+
+

@@ -1,0 +1,58 @@
+
+.scrolling {
+    background-color: black;
+    transition: all 0.5s ease;
+}
+
+.navbar-logo {
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: blue
+}
+
+.search-width {
+    width: 70% !important;
+}
+
+.mispedidos {
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}

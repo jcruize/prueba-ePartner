@@ -1,0 +1,85 @@
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  z-index: -2;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-info {
+  font-size: 35px;
+  padding: 30px 0 30px 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer-info h1 {
+  padding-bottom: 15px;
+}
+
+.footer-contact {
+  font-size: 22px;
+  padding: 100px 0 30px 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer-sns {
+  align-items: center;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.sns-links {
+  width: 100%;
+  text-align: center;
+}
+
+.linkedin {
+  color: white;
+  font-size: 35px;
+  margin: 0 auto;
+  border-bottom: 4px solid transparent;
+}
+
+.linkedin:hover {
+  border-color: white;
+  transition: all 0.3s ease-out;
+}
+
+.design-by {
+  font-size: 18px;
+  padding-left: 50px;
+  color: white;
+}
+
+hr.custom {
+  width: 90%;
+  opacity: 0.5;
+  margin: auto;
+}
+
+.footer-menus a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-menus h3 {
+  color: yellow;
+  font-size: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.footer-menus img {
+  padding-top: 25px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
