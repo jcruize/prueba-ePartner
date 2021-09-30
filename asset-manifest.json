@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/prueba-ePartner/static/css/main.f1d4ac1d.chunk.css",
+    "main.js": "/prueba-ePartner/static/js/main.15837419.chunk.js",
+    "main.js.map": "/prueba-ePartner/static/js/main.15837419.chunk.js.map",
+    "runtime-main.js": "/prueba-ePartner/static/js/runtime-main.5b5b93a8.js",
+    "runtime-main.js.map": "/prueba-ePartner/static/js/runtime-main.5b5b93a8.js.map",
+    "static/css/2.f2512455.chunk.css": "/prueba-ePartner/static/css/2.f2512455.chunk.css",
+    "static/js/2.37e350f6.chunk.js": "/prueba-ePartner/static/js/2.37e350f6.chunk.js",
+    "static/js/2.37e350f6.chunk.js.map": "/prueba-ePartner/static/js/2.37e350f6.chunk.js.map",
+    "index.html": "/prueba-ePartner/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/prueba-ePartner/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.f1d4ac1d.chunk.css.map": "/prueba-ePartner/static/css/main.f1d4ac1d.chunk.css.map",
+    "static/js/2.37e350f6.chunk.js.LICENSE.txt": "/prueba-ePartner/static/js/2.37e350f6.chunk.js.LICENSE.txt",
+    "static/media/Tapabocas.2de7da9a.jpg": "/prueba-ePartner/static/media/Tapabocas.2de7da9a.jpg",
+    "static/media/ayuda.4a1c4070.jpg": "/prueba-ePartner/static/media/ayuda.4a1c4070.jpg",
+    "static/media/cover.e620e8e8.jpg": "/prueba-ePartner/static/media/cover.e620e8e8.jpg",
+    "static/media/logo.245b87ff.png": "/prueba-ePartner/static/media/logo.245b87ff.png",
+    "static/media/mascara.13cd82d0.png": "/prueba-ePartner/static/media/mascara.13cd82d0.png",
+    "static/media/metodos-pago.8a48be3e.png": "/prueba-ePartner/static/media/metodos-pago.8a48be3e.png",
+    "static/media/seguridad.e6d86720.jpg": "/prueba-ePartner/static/media/seguridad.e6d86720.jpg",
+    "static/media/silla.5de67ab4.png": "/prueba-ePartner/static/media/silla.5de67ab4.png",
+    "static/media/silla1.db1a485f.jpg": "/prueba-ePartner/static/media/silla1.db1a485f.jpg",
+    "static/media/silla2.de294d8c.jpg": "/prueba-ePartner/static/media/silla2.de294d8c.jpg",
+    "static/media/silla3.12ebeb6f.jpg": "/prueba-ePartner/static/media/silla3.12ebeb6f.jpg",
+    "static/media/silla4.4150e651.jpg": "/prueba-ePartner/static/media/silla4.4150e651.jpg",
+    "static/media/sillaR.fa1d0ceb.jpg": "/prueba-ePartner/static/media/sillaR.fa1d0ceb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b5b93a8.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.37e350f6.chunk.js",
+    "static/css/main.f1d4ac1d.chunk.css",
+    "static/js/main.15837419.chunk.js"
+  ]
+}
